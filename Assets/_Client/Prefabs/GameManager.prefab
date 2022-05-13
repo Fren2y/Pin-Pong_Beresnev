@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &844118741815331515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 844118741815331517}
+  - component: {fileID: 844118741815331516}
+  - component: {fileID: 844118741815331518}
+  - component: {fileID: 844118741815331519}
+  - component: {fileID: 844118741815331488}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &844118741815331517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844118741815331515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5303092, y: -0.5947709, z: -1.2005177}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &844118741815331516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844118741815331515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07c8b502532bbf04baaab4d14c218c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StartGame:
+    m_PersistentCalls:
+      m_Calls: []
+  m_EndGame:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UpdateBallColor:
+    m_PersistentCalls:
+      m_Calls: []
+  m_PlayerHitCount:
+    m_PersistentCalls:
+      m_Calls: []
+  m_UpdateScore:
+    m_PersistentCalls:
+      m_Calls: []
+  mySpawner: {fileID: 844118741815331518}
+  mySettings: {fileID: 844118741815331519}
+  myData: {fileID: 844118741815331488}
+--- !u!114 &844118741815331518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844118741815331515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13234f45e4d5e944807590bfc68eb4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _allBalls:
+  - {fileID: 11400000, guid: 51822f20b42dee743b4e95b700a60926, type: 2}
+  - {fileID: 11400000, guid: 80259819d2ec624428d9249c2dfa674e, type: 2}
+  - {fileID: 11400000, guid: c8920e5212e85a64fbbd296a4ebd13e0, type: 2}
+  - {fileID: 11400000, guid: a9860a2f9d76f4440a0986c445aba4c2, type: 2}
+  _ballObj: {fileID: 7752699205906781552, guid: 04a9c6f0fbfdd584695ced659c88c2dc, type: 3}
+  _extraBallObj: {fileID: 889444214182047319, guid: ed749c2e9a8e9694996a4f8f38992e53, type: 3}
+--- !u!114 &844118741815331519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844118741815331515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d33d4194fe1884ba18c2d0d6bd9175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inputSense: 1
+  _ballColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.6179246, g: 1, b: 0.9394142, a: 1}
+  - {r: 0.504717, g: 1, b: 0.57235956, a: 1}
+  - {r: 0.9150943, g: 0.5222944, b: 0.5222944, a: 1}
+  - {r: 0.9622174, g: 0.19339621, b: 1, a: 1}
+--- !u!114 &844118741815331488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844118741815331515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 022daf42db433384f8123e4f4597974a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
